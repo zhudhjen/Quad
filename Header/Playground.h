@@ -14,13 +14,13 @@ public:
 
 private:
 	/* Coordinate */
-	const long x, y, z;
+	const long X, Y, Z;
 
 	/* Board */
-	const Entity* board;
+	Entity &board;
 
 	/* Columns */
-	const Entity* columns[4][4];
+	Entity &columns[4][4];
 };
 
 #endif

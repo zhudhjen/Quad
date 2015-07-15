@@ -14,13 +14,13 @@ public:
 
 private:
 	/* Coordinate */
-	const long x, y, z;
+	const long X, Y, Z;
 
 	/* Width */
-	const long w;
+	const long W;
 
 	/* Height */
-	const long h;
+	const long H;
 };
 
 #endif

@@ -22,15 +22,18 @@ public:
 		return type;
 	}
 
+	/* Fall */
+	void fall(void);
+
 private:
 	/* Coordinate */
-	const long x, y, z;
+	long x, y, z;
 
 	/* Radium */
-	const long r;
+	static const long R;
 
 	/* Type */
-	const bool type;
+	const bool TYPE;
 };
 
 #endif

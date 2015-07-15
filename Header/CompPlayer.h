@@ -11,9 +11,6 @@ public:
 
 	/* Get decision */
 	void get_decision(void) const;
-
-private:
-	AI* ai;
 };
 
 #endif

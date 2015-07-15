@@ -14,13 +14,13 @@ public:
 	
 private:
 	/* Coordinate */
-	const long x, y, z;
+	const long X, Y, Z;
 
 	/* Radium */
-	const long r;
+	static const long R;
 
 	/* Length */
-	const long l;
+	static const long L;
 };
 
 #endif
