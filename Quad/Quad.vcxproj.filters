@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{9c6f5696-4d77-4d39-91f0-8d1b633eb9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewModel">
+      <UniqueIdentifier>{cdc0fc03-1cc1-4dff-be93-d42addba0d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ViewModel\Command">
+      <UniqueIdentifier>{e160b375-7862-465f-ab95-91df02086ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{00a7e7d0-fc67-4203-9da1-95d982d5019c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{abd301ea-ca56-45a7-9ea4-83c71779513e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{0c3f4c91-0255-4e84-aeea-21674cb194a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Sink">
+      <UniqueIdentifier>{71a719e6-36b9-4a9c-9f46-e2bc6abd7577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\App\Command">
+      <UniqueIdentifier>{66b86a3e-031e-471e-bd40-a5ee85541a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Algorithm">
+      <UniqueIdentifier>{e4a72f0e-45f9-41c3-9610-0abba84ae942}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStartCommand.h">
+      <Filter>Source Files\ViewModel\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="AiMoveCommand.h">
+      <Filter>Source Files\ViewModel\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMoveCommand.h">
+      <Filter>Source Files\ViewModel\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoCommand.h">
+      <Filter>Source Files\ViewModel\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="GameModel.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameViewModel.h">
+      <Filter>Source Files\ViewModel</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Source Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="GameView.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="GameViewSink.h">
+      <Filter>Source Files\View\Sink</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleViewSink.h">
+      <Filter>Source Files\View\Sink</Filter>
+    </ClInclude>
+    <ClInclude Include="SwitchWindowCommand.h">
+      <Filter>Source Files\App\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleView.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Playground.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ai.h">
+      <Filter>Source Files\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEventReceiver.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaygroundStatus.h">
+      <Filter>Source Files\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
